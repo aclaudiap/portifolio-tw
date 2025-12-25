@@ -2,7 +2,7 @@ name: Deploy Hugo site to Pages
 
 on:
   push:
-    branches: ["master"] # Como o seu é master, deixamos assim
+    branches: ["main"] # Como o seu é master, deixamos assim
 
 permissions:
   contents: read
