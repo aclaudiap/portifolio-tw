@@ -12,15 +12,24 @@ theme = "FixIt"
       title = "Olá, eu sou a Claudia"
       subtitle = "Documentação Técnica | Processos | Tecnologia"
       social = true
-      
+
+    # Esta seção abaixo garante que os posts não apareçam na tela principal
+    [params.home.posts]
+      enable = false
+
   [params.social]
     GitHub = "aclaudiap"
-    Linkedin = "seu-perfil-aqui"
-    Email = "seu-email@exemplo.com"
+    Linkedin = "aclaudiap"
 
 [menu]
   [[menu.main]]
     identifier = "posts"
     name = "Documentação"
-    url = "/posts"
+    url = "/posts/"
     weight = 1
+
+  [[menu.main]]
+    identifier = "curriculo"
+    name = "Currículo"
+    url = "/curriculo/"
+    weight = 2

@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/meu-portifolio-doc/docs/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/meu-portifolio-doc/sobre/</loc>
-  </url>
-  <url>
     <loc>http://localhost:1313/meu-portifolio-doc/categories/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/meu-portifolio-doc/posts/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/meu-portifolio-doc/curriculo/</loc>
   </url>
   <url>
     <loc>http://localhost:1313/meu-portifolio-doc/</loc>
   </url>
   <url>
     <loc>http://localhost:1313/meu-portifolio-doc/tags/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/meu-portifolio-doc/posts/templates/</loc>
   </url>
 </urlset>
