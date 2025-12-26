@@ -1,19 +1,30 @@
 baseURL = "https://aclaudiap.github.io/meu-portifolio-doc/"
 languageCode = "pt-br"
-title = "Portfólio | Claudia"
+title = "Bem vindo!"
 theme = "FixIt"
 
 [params]
   defaultTheme = "light"
 
+  [params.section]
+    enableCount = false
+  
+  [params.page]
+    wordCount = false
+    readingTime = false
+    enableLastMod = false
+    enableDate = false
+
   [params.home]
     [params.home.profile]
       enable = true
-      title = "Olá, eu sou a Claudia"
-      subtitle = "Documentação Técnica | Processos | Tecnologia"
+      title = "Olá, eu sou a Ana Claudia"
+      # Deixamos o subtítulo limpo para evitar erros de renderização
+      subtitle = "Documentação Técnica • Processos • Tecnologia"
       social = true
+      # Usamos o avatar para dar um destaque, se você tiver uma imagem em static/images/avatar.png
+      avatarURL = "" 
 
-    # Esta seção abaixo garante que os posts não apareçam na tela principal
     [params.home.posts]
       enable = false
 
@@ -22,9 +33,10 @@ theme = "FixIt"
     Linkedin = "aclaudiap"
 
 [menu]
+  # Botões do Menu Superior (Navegação Principal)
   [[menu.main]]
     identifier = "posts"
-    name = "Documentação"
+    name = "Modelos de documentação"
     url = "/posts/"
     weight = 1
 
@@ -33,3 +45,28 @@ theme = "FixIt"
     name = "Currículo"
     url = "/curriculo/"
     weight = 2
+
+  # Adicionando os modelos direto no menu para fácil acesso, já que a Home deu erro com HTML
+  [[menu.main]]
+    parent = "posts"
+    name = "Onboarding"
+    url = "/posts/onboarding"
+    weight = 1
+
+  [[menu.main]]
+    parent = "posts"
+    name = "Documentação de Negócios"
+    url = "/posts/negocios"
+    weight = 2
+
+  [[menu.main]]
+    parent = "posts"
+    name = "Documentação Técnica"
+    url = "/posts/tecnico"
+    weight = 3
+
+  [[menu.main]]
+    parent = "posts"
+    name = "Releases Notes"
+    url = "/posts/releases"
+    weight = 4

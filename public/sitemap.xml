@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/meu-portifolio-doc/categories/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/meu-portifolio-doc/posts/</loc>
+    <loc>http://localhost:1313/meu-portifolio-doc/</loc>
+    <lastmod>2025-12-26T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/meu-portifolio-doc/curriculo/</loc>
+    <lastmod>2025-12-26T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/meu-portifolio-doc/</loc>
+    <loc>http://localhost:1313/meu-portifolio-doc/posts/negocios/</loc>
+    <lastmod>2025-12-26T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/meu-portifolio-doc/posts/tecnico/</loc>
+    <lastmod>2025-12-26T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/meu-portifolio-doc/posts/onboarding/</loc>
+    <lastmod>2025-12-26T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/meu-portifolio-doc/posts/releases/</loc>
+    <lastmod>2025-12-26T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/meu-portifolio-doc/posts/</loc>
+    <lastmod>2025-12-26T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/meu-portifolio-doc/categories/</loc>
   </url>
   <url>
     <loc>http://localhost:1313/meu-portifolio-doc/tags/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/meu-portifolio-doc/posts/templates/</loc>
   </url>
 </urlset>
