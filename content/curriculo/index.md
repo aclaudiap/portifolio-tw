@@ -1,5 +1,5 @@
 ---
-title: "Currículo"
+title: "Sobre mim"
 date: 2025-12-26
 draft: false
 ---

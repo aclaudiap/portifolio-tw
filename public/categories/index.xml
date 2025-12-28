@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Bem vindo!</title>
-    <link>http://localhost:1313/meu-portifolio-doc/categories/</link>
-    <description>Recent content in Categories on Bem vindo!</description>
+    <title>Categories on Welcome!</title>
+    <link>http://localhost:1313/portifolio-tw/categories/</link>
+    <description>Recent content in Categories on Welcome!</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <atom:link href="http://localhost:1313/meu-portifolio-doc/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/portifolio-tw/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

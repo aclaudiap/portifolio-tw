@@ -1,28 +1,37 @@
 baseURL = "https://aclaudiap.github.io/portifolio-tw/"
 languageCode = "pt-br"
-title = "Bem vindo!"
+title = "Welcome!"
 theme = "FixIt"
 
 [params]
   defaultTheme = "light"
 
+  # 1. Configuração do Autor (Para sumir o Anonymous)
+  [params.author]
+    name = "Ana Claudia"
+    link = "https://github.com/aclaudiap"
+
   [params.section]
     enableCount = false
   
   [params.page]
+    # 2. Desativação total de Metadados (Para sumir a data e o ícone de bonequinho)
+    author = false        # Remove o nome/ícone de autor abaixo do título
+    date = false          # Remove a data
+    enableDate = false
+    enablePublishDate = false
+    enableLastMod = false
     wordCount = false
     readingTime = false
-    enableLastMod = false
-    enableDate = false
+    editSource = false    # Remove link de editar página
+    backToTop = true
 
   [params.home]
     [params.home.profile]
       enable = true
-      title = "Olá, eu sou a Ana Claudia"
-      # Deixamos o subtítulo limpo para evitar erros de renderização
-      subtitle = "Documentação Técnica • Processos • Tecnologia"
+      title = "Ana Claudia"
+      subtitle = "Technical Writing • Doc-as-Code • Technology"
       social = true
-      # Usamos o avatar para dar um destaque, se você tiver uma imagem em static/images/avatar.png
       avatarURL = "" 
 
     [params.home.posts]
@@ -33,40 +42,40 @@ theme = "FixIt"
     Linkedin = "aclaudiap"
 
 [menu]
-  # Botões do Menu Superior (Navegação Principal)
+  # Menu Principal
   [[menu.main]]
     identifier = "posts"
-    name = "Modelos de documentação"
+    name = "Case: Doc-as-Code"
     url = "/posts/"
     weight = 1
 
   [[menu.main]]
     identifier = "curriculo"
-    name = "Currículo"
+    name = "Resume"
     url = "/curriculo/"
     weight = 2
 
-  # Adicionando os modelos direto no menu para fácil acesso, já que a Home deu erro com HTML
+  # Submenus
   [[menu.main]]
     parent = "posts"
-    name = "Onboarding"
-    url = "/posts/onboarding"
+    name = "Setup & Tools"
+    url = "/posts/1-ferramentas-e-acessos"
     weight = 1
 
   [[menu.main]]
     parent = "posts"
-    name = "Documentação de Negócios"
-    url = "/posts/negocios"
+    name = "Deployment Guide"
+    url = "/posts/2-passo-a-passo"
     weight = 2
 
   [[menu.main]]
     parent = "posts"
-    name = "Documentação Técnica"
-    url = "/posts/tecnico"
+    name = "Troubleshooting"
+    url = "/posts/3-erros-e-solucoes"
     weight = 3
 
   [[menu.main]]
     parent = "posts"
-    name = "Releases Notes"
-    url = "/posts/releases"
+    name = "Release Notes"
+    url = "/posts/4-historico-de-versoes"
     weight = 4
